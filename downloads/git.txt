@@ -16,13 +16,13 @@
 添加所有修改            git add .
 提交到本地倉庫          git commit -m "描述"
 切換到主分支            git checkout main
-推送到遠程倉庫          git puah origin main
+推送到遠程倉庫          git push origin 分支名
 
 組長用:
 切換到主分支            git checkout main
 確保分支最新            git pull origin main
 合併分支                git merge orgin/分支名
-推送合併後的給遠程倉庫 git push origin main
+推送合併後的給遠程倉庫  git push origin main
 
 
 組長查看其他組員用:
@@ -32,8 +32,8 @@
 拉取組員分支            git pull origin 組員分支名
 查看提交歷史            git log --oneline
 查看相異                git diff origi/main
-查看組員編輯靜態網頁   python main2.py
-切換到主分支           git checkout main
-確保分支最新           git pull origin main
-合併分支               git merge origin/組員分支名
-推送合併後的給遠程倉庫git push origin main
+查看組員編輯靜態網頁    python main2.py
+切換到主分支            git checkout main
+確保分支最新            git pull origin main
+合併分支                git merge origin/組員分支名
+推送合併後的給遠程倉庫  git push origin main
