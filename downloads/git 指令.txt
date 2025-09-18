@@ -1,0 +1,38 @@
+安裝套件                ./init_replit
+開啟網頁編輯            python main.py
+
+每次開發前:
+切換到主分支            git checkout main
+拉取最新資料            git pull origin main
+查看變更                git status
+
+*只需要做一次:
+創建新分支              git checkout -b 分支名
+
+後續編輯:
+切換到其他分支          git checkout 分支名
+
+
+提交
+添加所有修改            git add .
+提交到本地仓库          git commit -m "描述修改内容"
+
+
+
+
+組長用:
+切換到主分支            git checkout main
+確保分支最新            git pull origin main
+合併分支(遠端)          git merge origin/分支名
+推送合併後的給遠程倉庫  git push origin main
+所有分支(本地+遠端)     git branch -a
+
+-刪除分支               git branch -d 分支名
+合併分支(本地)          git merge --no-ff 分支名 -m "描述"
+
+webotsw
+solvespace
+ugraf -nx
+
+
+合併主分支到自己的分支  git push origin main
